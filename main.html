@@ -1,16 +1,152 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: #f6f6f6;
+      }
+      h1,
+      h4 {
+        color: #3b99e0;
+      }
+      .summary {
+        border-top: 2px solid #5ea4f3;
+        background-color: #f7fbff;
+      }
+    </style>
+  </head>
+  <div class="container text-center block-heading">
+    <h1>Shoping cart</h1>
+    <p>
+      The customer is very important, the customer will<br />
+      be followed by the customer. Now, as an urn, I have<br />
+      no right to be in possession of property.
+    </p>
+  </div>
+  <div class="container bg-white">
+    <div class="row">
+      <div class="col col-lg-8">
+        <div class="row product">
+          <div class="col-lg-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1587017234728-932c80f3e56f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBob25lc3xlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-3">
+            <h4>I am very sorry</h4>
+            <p>Display: 5 inches</p>
+            <p>RAM: 4GB</p>
+            <p>Memory: 32GB</p>
+          </div>
+          <div class="col-lg-3">
+            <label for="exampleInputEmail1" class="form-label">Quantity:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="0"
+            />
+          </div>
+          <div class="col-lg-3">120</div>
+        </div>
+        <div class="row product">
+          <div class="col-lg-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1587017234728-932c80f3e56f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBob25lc3xlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-3">
+            <h4>I am very sorry</h4>
+            <p>Display: 5 inches</p>
+            <p>RAM: 4GB</p>
+            <p>Memory: 32GB</p>
+          </div>
+          <div class="col-lg-3">
+            <label for="exampleInputEmail1" class="form-label">Quantity:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="1"
+            />
+          </div>
+          <div class="col-lg-3">120</div>
+        </div>
+        <div class="row product">
+          <div class="col-lg-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1587017234728-932c80f3e56f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBob25lc3xlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-3">
+            <h4>I am very sorry</h4>
+            <p>Display: 5 inches</p>
+            <p>RAM: 4GB</p>
+            <p>Memory: 32GB</p>
+          </div>
+          <div class="col-lg-3">
+            <label for="exampleInputEmail1" class="form-label">Quantity:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="1"
+            />
+          </div>
+          <div class="col-lg-3">120</div>
+        </div>
+      </div>
+      <div class="col col-lg-4 summary">
+        <h2>Summary</h2>
+        <table class="table">
+          <tbody class="table-group-divider">
+            <tr>
+              <td>Subtotal</td>
+              <td class="text-end">420</td>
+            </tr>
+            <tr>
+              <td>Discount</td>
+              <td class="text-end">0</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td class="text-end">0</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td class="text-end">420</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="button">checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
